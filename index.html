@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <script src="script.js" defer></script>
+
+        <title>MyInsights | Dashboard</title>
+    </head>
+    <body>
+        <div id="container">
+            <section id="sidebar">
+                <div class="sidebar-section" id="welcome-msg">
+                    <div class="sidebar-heading">Welcome.</div>
+                    <div>Andy Repp</div>
+                </div>
+                <nav class="sidebar-section">
+                    <div class="sidebar-heading">Metrics</div>
+                    <ul>
+                        <li class="selected">Overview</li>
+                        <li>Detailing</li>
+                        <li>Calls</li>
+                    </ul>
+                </nav>
+                <nav class="sidebar-section">
+                    <div class="sidebar-heading">Information</div>
+                    <ul>
+                        <li>About profiles</li>
+                        <li>Detailing targets</li>
+                    </ul>
+                </nav>
+            </section>
+            <main id="content">
+                <div id="heading">
+                    <h1>Overview</h1>
+                    <div id="refresh">
+                        <div>↻</div>
+                    </div>
+                </div>
+                <div id="details">
+                    <h2>Next call</h2>
+                    <dl>
+                        <div class="description-pair">
+                            <dt>Date:</dt>
+                            <dd>Tomorrow, 3PM<br />12 November 2017</dd>
+                        </div>
+                        <div class="description-pair">
+                            <dt>Account:</dt>
+                            <dd>Dr. Clinton Ackerman</dd>
+                        </div>
+                        <div class="description-pair">
+                            <dt>Specialty:</dt>
+                            <dd>Respiratory therapist<br />Assistive therapy</dd>
+                        </div>
+                        <div class="description-pair">
+                            <dt>Profile:</dt>
+                            <dd>Confident</dd>
+                        </div>
+                    </dl>
+                </div>
+                <div id="calls">
+                    <h2>Calls this month</h2>
+                    <div id="call-number-graphic">
+                        <div id="grey-border"></div>
+                        <div id="call-number">
+                            <div id="rotate-reverse">
+                                <div id="numerator">21</div>
+                                <div id="denominator">/28</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="chart">
+                    <h2>Detailing topic breakdown</h2>
+                    <ul id="legend">
+                        <li><span></span>Adherence</li>
+                        <li><span></span>Combination therapy</li>
+                        <li><span></span>Dosing</li>
+                        <li><span></span>Guidelines</li>
+                        <li><span></span>Safety</li>
+                        <li><span></span>Other</li>
+                    </ul>
+                    <div>
+                        <div class="chart-section">
+                            <h3>Avg. all</h3>
+                            <div class="chart-bar"></div>
+                        </div>
+                        <div class="chart-section">
+                            <h3>Cautious</h3>
+                            <div class="chart-bar"></div>
+                        </div>
+                        <div class="chart-section">
+                            <h3>Complacent</h3>
+                            <div class="chart-bar"></div>
+                        </div>
+                        <div class="chart-section">
+                            <h3>Confident</h3>
+                            <div class="chart-bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
